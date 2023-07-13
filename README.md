@@ -6,12 +6,12 @@ This directory contains the Tabu Search and Variable Function Search algorithms 
 
 - Compile the code using the "make" command.
 
-- Execute the algorithms using the following commands. Keep in mind that the only instance format accepted by the algorithms is the one used in [QAPLIB]{https://coral.ise.lehigh.edu/data-sets/qaplib/}.
+- Execute the algorithms using the following commands. Keep in mind that the only instance format accepted by the algorithms is the one used in [QAPLIB](https://coral.ise.lehigh.edu/data-sets/qaplib/).
 
     - Tabu Search:
-      > ./TS [Instance] [Random seed] [Tabu list size] [Number of solution evaluations] [Output header (yes=1)]
+      > ./TS [Instance] [Seed] [Tabu list size] [Number of solution evaluations] [Output header (yes=1)]
 
     - Variable Function Search:
-      > ./VFS [Instance] [Random seed] [Tabu list size] [Number of solution evaluations] [Output header (yes=1)]
+      > ./VFS [Instance] [Seed] [Tabu list size] [Number of solution evaluations] [Output header (yes=1)]
 
 - The algorithms output information about the solutions visited at each step of the search process (CSV format).
